@@ -1,0 +1,20 @@
+- text: Home
+  url: /
+- text: Procedures
+  subitems:
+    - text: Wisdom Teeth
+      url: /procedures/wisdom-teeth/
+    - text: IV Sedation
+      url: /procedures/iv-sedation/
+    - text: Oral Pathology
+      url: /procedures/oral-pathology/
+    - text: Exposure of Impacted Canines
+      url: /procedures/exposure-of-impacted-canines/
+    - text: Bone Augmentation/Grafting
+      url: /procedures/bone-augmentation-grafting/
+    - text: Procedure Videos
+      url: /procedures/procedure-videos/
+- text: About
+  url: /about/
+- text: Contact
+  url: /contact/
