@@ -1,9 +1,8 @@
 --- 
 layout: default 
 ---
-<div class="subpage-header" style="background-image:url({%if page.header_image%}{{page.header_image}}{% else %}/assets/images/headers/subpage-header.jpg{% endif %})"></div>
-<main>
-  <div class="subpage">
+<div class="content-bg clearfix">
+  <div class="subpage clearfix">
     <div class="content">
       {{ content }}
     </div>
@@ -15,4 +14,4 @@ layout: default
         {% endif %} 
     </div>
   </div>
-</main>
+</div>
