@@ -12,7 +12,7 @@ layout: compress
 <body class="{% if page.layout == 'front' %}front{% else %}not-front{% endif %} {% if page.is_post %}post{% endif %} {{ page.url | slugify }} {% if page.body_class %}{{page.body_class}}{% endif %} {% if layout.body_class %}{{layout.body_class}}{% endif %}">
     {% comment %}{% include_cached browserupgrade.html %}{% endcomment %}
   
-  {% if page.layout == 'front'%}
+  <!-- {% if page.layout == 'front'%}
     <div id="site-header" class="header-wrapper clearfix"  style="background-image:url({%if page.header_image%}{{page.header_image}}{% else %}/assets/images/headers/home-headers.jpg{% endif %})">
         {% include_cached header.html group=page.group url=page.url %}
     </div>
@@ -20,7 +20,8 @@ layout: compress
     <div id="site-header" class="header-wrapper clearfix">
         {% include_cached header.html group=page.group url=page.url %}
     </div>
-{% endif %}
+{% endif %} -->
+{% include_cached header.html group=page.group url=page.url %}
 
 
     {% if page.layout != 'front' %}
