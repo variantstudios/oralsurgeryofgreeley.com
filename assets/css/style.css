@@ -879,7 +879,7 @@ body.not-front .footer-wrapper-top .footer-inner .left {
   font-size: .8rem;
   text-align: center;
 }
-@media (min-width: 75em) {
+@media (min-width: 50em) {
   body.front .footer-wrapper-top .footer-inner .left,
   body.not-front .footer-wrapper-top .footer-inner .left {
     width: 50%;
@@ -901,10 +901,10 @@ body.not-front .footer-wrapper-top .footer-inner .left {
 }
 body.front .footer-wrapper-top .footer-inner .right,
 body.not-front .footer-wrapper-top .footer-inner .right {
-  font-size: .8rem;
+  margin-top: .5rem;
   text-align: center;
 }
-@media (min-width: 75em) {
+@media (min-width: 50em) {
   body.front .footer-wrapper-top .footer-inner .right,
   body.not-front .footer-wrapper-top .footer-inner .right {
     width: 50%;
@@ -912,6 +912,7 @@ body.not-front .footer-wrapper-top .footer-inner .right {
     margin-left: 0;
     margin-right: 0;
     clear: none;
+    margin-top: 0;
     text-align: right;
   }
 }
@@ -922,6 +923,7 @@ body.not-front .footer-wrapper-top .footer-inner .right {
   margin-left: 0;
   margin-right: 0;
   clear: none;
+  margin-top: 0;
   text-align: right;
 }
 body.front .footer-wrapper-top .lb,
@@ -932,6 +934,7 @@ body.not-front .footer-wrapper-top .lb {
 body.front .footer-wrapper-bottom,
 body.not-front .footer-wrapper-bottom {
   background-color: #232426;
+  text-align: center;
 }
 body.front .footer-wrapper-bottom .subpage,
 body.not-front .footer-wrapper-bottom .subpage {
@@ -958,7 +961,7 @@ body.not-front .footer-wrapper-bottom .footer-inner .left {
   font-size: .8rem;
   text-align: center;
 }
-@media (min-width: 75em) {
+@media (min-width: 50em) {
   body.front .footer-wrapper-bottom .footer-inner .left,
   body.not-front .footer-wrapper-bottom .footer-inner .left {
     width: 50%;
@@ -983,7 +986,7 @@ body.not-front .footer-wrapper-bottom .footer-inner .right {
   font-size: .8rem;
   text-align: center;
 }
-@media (min-width: 75em) {
+@media (min-width: 50em) {
   body.front .footer-wrapper-bottom .footer-inner .right,
   body.not-front .footer-wrapper-bottom .footer-inner .right {
     width: 50%;

@@ -24,16 +24,17 @@ body.not-front .footer-wrapper-top {
         }
         .left {
             font-size: .8rem;
-            @include breakpoint(1200px, $no-query: ".no-mq") {
+            @include breakpoint($bp-medium, $no-query: ".no-mq") {
                 @include grid-span(6, 1, $gutter: 0);
                 text-align: left;
             }
             text-align: center;
         }
         .right {
-            font-size: .8rem;
-            @include breakpoint(1200px, $no-query: ".no-mq") {
+            margin-top: .5rem;
+            @include breakpoint($bp-medium, $no-query: ".no-mq") {
                 @include grid-span(6, 7, $gutter: 0);
+                margin-top: 0;
                 text-align: right;
             }
             text-align: center;
@@ -47,6 +48,7 @@ body.not-front .footer-wrapper-top {
 body.front .footer-wrapper-bottom,
 body.not-front .footer-wrapper-bottom {
     background-color: #232426;
+    text-align: center;
     .subpage {
         background: none;
         margin-top: .5rem;
@@ -69,7 +71,7 @@ body.not-front .footer-wrapper-bottom {
         }
         .left {
             font-size: .8rem;
-            @include breakpoint(1200px, $no-query: ".no-mq") {
+            @include breakpoint($bp-medium, $no-query: ".no-mq") {
                 @include grid-span(6, 1, $gutter: 0);
                 text-align: left;
             }
@@ -77,7 +79,7 @@ body.not-front .footer-wrapper-bottom {
         }
         .right {
             font-size: .8rem;
-            @include breakpoint(1200px, $no-query: ".no-mq") {
+            @include breakpoint($bp-medium, $no-query: ".no-mq") {
                 @include grid-span(6, 7, $gutter: 0);
                 text-align: right;
             }
