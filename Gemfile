@@ -7,7 +7,6 @@ gem 'ffi', '1.9.18'
 gem 'compass', '1.0.3'
 
 group :jekyll_plugins do
-    gem 'jekyll-paginate-v2', '1.7.3'
     gem 'jekyll-sitemap', '0.10.0'
     gem 'jekyll-include-cache', '0.1.0'
 end
