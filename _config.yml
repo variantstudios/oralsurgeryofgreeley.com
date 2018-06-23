@@ -3,7 +3,7 @@ title: "Oral and Maxillofacial Surgery of Greeley PC"
 email: "team@variantstudios.com"
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog/ - keep empty!
-url: "" # the base hostname & protocol for your site - don't include the forward slash
+url: "https://useful-anteater.cloudvent.net" # the base hostname & protocol for your site - don't include the forward slash
 #timezone: America/Denver - Don't set for CloudCannon...for reasons.
 version: "3.8.2" # the version of jekyll
 
@@ -12,21 +12,8 @@ uploads_dir: "assets/images"
 
 # Gems for plugins
 plugins:
-  - jekyll-paginate-v2 # Needed to add paginate on Jekyll ver 3+
   - jekyll-sitemap # Simple jekyll plugin that creates a sitemap.xml file and you can exclude files by adding 'sitemap:false' to the frontmatter of any file(s).
   - jekyll-include-cache # Cache jekyll includes to improve build times
-
-# Pagination V2 Settings: https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
-pagination:
-  enabled: true
-  per_page: 9
-  permalink: '/:num/'
-  title: ':title - page :num'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-  debug: true
-  collection: 'posts'
 
 # Permalinks
 permalink: pretty
@@ -44,24 +31,20 @@ compress_html:
 
 #Collections
 collections:
-  posts:
+  procedures:
     output: true
-    permalink: '/blog/:title/'
-  categories:
-    output: true
-    permalink: '/blog/category/:title/'
-    _hide_content: true
+    permalink: '/procedures/:title/'
 
 defaults:
   -
     scope:
-      type: posts
+      type: procedures
     values:
-      layout: post
-      class: single post
+      layout: procedure
+      class: procedures
       _options:
         image_path: # Front matter field
-          uploads_dir: "assets/images/posts/"
+          uploads_dir: "assets/images/procedures/"
   -
     scope:
       type: categories
@@ -107,8 +90,6 @@ _options:
     
 _comments:
   share_image_path: "The social share image needs to be at least 1200x1200px and if not that exact same size CloudCannon will scale and crop it to 1200x1200."
-  gys_companies: "Select the one or multiple GYS company where this asset should be listed under."
-  opening: "This is optional. If it applies please use the Month abbreviation and year. ie: Dec 2018"
 
 # Cloudinary
 # cloudinaryurl: 'https://res.cloudinary.com/grow-your-storage/'
