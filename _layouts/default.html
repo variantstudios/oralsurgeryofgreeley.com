@@ -28,8 +28,11 @@ layout: compress
         {{ content }}
     </div>
     {% else %} {{ content }} {% endif %}
-    <div class="footer-wrapper clearfix">
-        {% include_cached footer.html %}
+    <div class="footer-wrapper-top clearfix">
+        {% include_cached footer-top.html %}
+    </div>
+    <div class="footer-wrapper-bottom clearfix">
+        {% include_cached footer-bottom.html %}
     </div>
     {% include_cached scripts.html layout=page.layout class=page.class google_analytics_tracking_id=site.google_analytics_tracking_id %}
 </body>
