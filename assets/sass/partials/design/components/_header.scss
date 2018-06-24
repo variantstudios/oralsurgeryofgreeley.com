@@ -2,12 +2,17 @@ header.siteheader {
     max-width: 1200px;
     background: #fff;
     padding: 0;
+    //padding: 0 2rem;
+    .header-wrap {
+        position: relative;
+    }
     @include breakpoint($bp-medium, $no-query: ".no-mq") {
-        padding: 1rem 2rem 1rem 2rem;
+        padding: 1rem 2rem;
         background: none;
     }
     .logo {
-        text-align: center;
+        //text-align: center;
+        // transform: scale(.75);
         @include breakpoint($bp-medium, $no-query: ".no-mq") {
             @include grid-span(4, 1, $gutter: 0);
         }
@@ -17,6 +22,31 @@ header.siteheader {
         float: none;
         @include breakpoint($bp-medium, $no-query: ".no-mq") {
             @include grid-span(8, 5, $gutter: 0);
+        }
+    }
+    span.tel {
+        font-weight: 700;
+        font-size: 1.1rem;
+        display: block;
+        width: 100%;
+        background: $color-two;
+        color: #fff;
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+        @include breakpoint($bp-medium, $no-query: ".no-mq") {
+            display: block;
+            color: $color-two;
+            position: absolute;
+            right: 0;
+            top: -10px;
+            background: none;
+            width: auto;
+            a {
+                text-decoration: none;
+                color: $color-two;
+            }
         }
     }
 }
