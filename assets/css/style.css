@@ -1021,18 +1021,13 @@ header.siteheader .header-wrap {
 }
 @media (min-width: 50em) {
   header.siteheader {
-    padding: 1rem 0;
+    padding: 1rem 2rem;
     background: none;
   }
 }
 .no-mq header.siteheader {
-  padding: 1rem 0;
+  padding: 1rem 2rem;
   background: none;
-}
-header.siteheader .logo {
-  -webkit-transform: scale(0.75);
-      -ms-transform: scale(0.75);
-          transform: scale(0.75);
 }
 @media (min-width: 50em) {
   header.siteheader .logo {
@@ -1071,21 +1066,44 @@ header.siteheader .main-nav {
   clear: none;
 }
 header.siteheader span.tel {
-  position: absolute;
-  right: 0;
-  top: -10px;
   font-weight: 700;
-  color: #EFA099;
   font-size: 1.1rem;
-  display: none;
+  display: block;
+  width: 100%;
+  background: #EFA099;
+  color: #fff;
+}
+header.siteheader span.tel a {
+  text-decoration: none;
+  color: #fff;
 }
 @media (min-width: 50em) {
   header.siteheader span.tel {
     display: block;
+    color: #EFA099;
+    position: absolute;
+    right: 0;
+    top: -10px;
+    background: none;
+    width: auto;
+  }
+  header.siteheader span.tel a {
+    text-decoration: none;
+    color: #EFA099;
   }
 }
 .no-mq header.siteheader span.tel {
   display: block;
+  color: #EFA099;
+  position: absolute;
+  right: 0;
+  top: -10px;
+  background: none;
+  width: auto;
+}
+.no-mq header.siteheader span.tel a {
+  text-decoration: none;
+  color: #EFA099;
 }
 
 #site-header {
