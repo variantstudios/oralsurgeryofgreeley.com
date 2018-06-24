@@ -9,4 +9,4 @@ layout: page
 permalink: "/contact/"
 ---
 
-Contact
+# Contact Richard W. Mellin, DDS, MD 
