@@ -1,4 +1,4 @@
-{% if page.layout == 'front' %}
+{% comment %} {% if page.layout == 'front' %}
 <script>
     var cb = function() {
         var l = document.createElement('link');
@@ -13,7 +13,9 @@
     else window.addEventListener('load', cb);
 </script>
 {% else %}
-<link rel="stylesheet" href="/assets/css/style.css" media="screen"> {% endif %}
+<link rel="stylesheet" href="/assets/css/style.css" media="screen"> {% endif %} {% endcomment %}
+<link rel="stylesheet" href="/assets/css/style.css" media="screen"> 
+
 <link href="https://fonts.googleapis.com/css?family=Mitr:600|PT+Sans:400,700" rel="stylesheet">
 
 <script src="/assets/js/prod/modernizr-2.8.3.min.js"></script>
@@ -38,7 +40,7 @@
         paginationNumbers: false,
         items: 1,
         breakpoints: [
-            [1199, 2],
+            [1199, 1],
             [979, 1],
             [768, 1],
             [479, 1]
