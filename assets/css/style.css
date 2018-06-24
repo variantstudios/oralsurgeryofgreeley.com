@@ -1700,6 +1700,7 @@ body.front ul.procedures-list {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
+  padding: 0;
 }
 body.front ul.procedures-list li {
   -webkit-box-flex: 1;
@@ -1749,6 +1750,7 @@ body.front ul.calls-to-action {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
+  padding: 0;
 }
 body.front ul.calls-to-action li {
   text-align: center;
