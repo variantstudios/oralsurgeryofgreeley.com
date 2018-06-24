@@ -1,5 +1,19 @@
-<link rel="stylesheet" href="/assets/css/style.css" media="screen">
-
+{% if page.layout == 'front' %}
+<script>
+    var cb = function() {
+        var l = document.createElement('link');
+        l.rel = 'stylesheet';
+        l.href = '/assets/css/style.css';
+        var h = document.getElementsByTagName('head')[0];
+        h.parentNode.insertBefore(l, h);
+    };
+    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+        webkitRequestAnimationFrame || msRequestAnimationFrame;
+    if (raf) raf(cb);
+    else window.addEventListener('load', cb);
+</script>
+{% else %}
+<link rel="stylesheet" href="/assets/css/style.css" media="screen"> {% endif %}
 <link href="https://fonts.googleapis.com/css?family=Mitr:600|PT+Sans:400,700" rel="stylesheet">
 
 <script src="/assets/js/prod/modernizr-2.8.3.min.js"></script>
@@ -23,6 +37,12 @@
         pagination: true,
         paginationNumbers: false,
         items: 1,
+        breakpoints: [
+            [1199, 2],
+            [979, 1],
+            [768, 1],
+            [479, 1]
+        ]
     });
 </script>
 {% endif %} {% if include.class == 'contact' %}
