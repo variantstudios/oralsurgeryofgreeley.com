@@ -1,6 +1,5 @@
 ---
 title: "Dentures"
-header_image: /assets/images/headers/home-headers.jpg
 search_engine_optimization:
   page_title: "Pre-Prosthetic, Pre-Denture or Pre-Partial Surgery - Oral and Maxillofacial Surgery of Greeley PC"
   page_description:

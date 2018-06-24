@@ -1,6 +1,5 @@
 ---
 title: "Cone Beam CT"
-header_image: /assets/images/headers/home-headers.jpg
 search_engine_optimization:
   page_title: "Cone Beam CT: A 3-D View - Oral and Maxillofacial Surgery of Greeley PC"
   page_description:
