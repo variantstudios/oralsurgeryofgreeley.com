@@ -11,6 +11,8 @@ permalink: "/about/"
 
 # About Richard W. Mellin, DDS, MD 
 
+!["Richard W. Mellin, DDS, MD"](/assets/images/about/Richard-W-Mellin.jpg)
+
 Dr. Mellin, "Doc Rick", is a third generation Weld County resident.  He grew up in the Greeley area, graduating from Platte Valley High School in 1983.  He attended, and received his dental degree from the University of Texas Health Sciences Center in San Antonio.  From there he returned to Colorado completing a 1 year residency in general practice at the University of Colorado Health Sciences Center in Denver.  Once again he and his wife left Colorado for the Mayo Clinic in Rochester, Minnesota.  Over the course of the next 6 years he completed his specialty training in Oral and Maxillofacial Surgery and graduated from Mayo Medical School.  Dr. Mellin then chose to return to Greeley vs. pursuing a career at the Mayo Clinic.  He joined fellow Mayo alum, Dr Bryan Ericson, in Greeley in July of 1997.  He celebrated his 20th year of serving Greeley, Weld County, and Northeastern Colorado in July of 2017.
  
 Rick and his wife Christine, a 1983 graduate of Greeley Central High School, celebrated their 30th wedding anniversary in December of 2016.  They have 2 children.  Josh, 23, a 2013 graduate of Frontier Academy, and a 2017 graduate from the University of Colorado, Boulder, with a dual degree in Aerospace Engineering and Applied Mathematics.  Kathryn, 21, a 2015 graduate of Greeley West High School, is completing her junior year at the University of Colorado, Boulder, majoring in Integrated Physiology.  

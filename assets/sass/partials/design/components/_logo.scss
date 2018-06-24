@@ -6,7 +6,7 @@
     transition: all .5s ease;
     img {
         display: block;
-        margin: 0 auto;
+        margin: 1rem auto;
         @include breakpoint($bp-medium, $no-query: '.no-mq') {
             margin: 0;
         }
