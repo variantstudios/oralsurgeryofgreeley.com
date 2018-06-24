@@ -896,6 +896,12 @@ body.not-front .footer-wrapper-top .footer-inner .right {
   margin-top: .5rem;
   text-align: center;
 }
+body.front .footer-wrapper-top .footer-inner .right a img,
+body.not-front .footer-wrapper-top .footer-inner .right a img {
+  -webkit-transform: scale(0.7);
+      -ms-transform: scale(0.7);
+          transform: scale(0.7);
+}
 @media (min-width: 50em) {
   body.front .footer-wrapper-top .footer-inner .right,
   body.not-front .footer-wrapper-top .footer-inner .right {
@@ -907,6 +913,12 @@ body.not-front .footer-wrapper-top .footer-inner .right {
     margin-top: 0;
     text-align: right;
   }
+  body.front .footer-wrapper-top .footer-inner .right a img,
+  body.not-front .footer-wrapper-top .footer-inner .right a img {
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+  }
 }
 .no-mq body.front .footer-wrapper-top .footer-inner .right, .no-mq
 body.not-front .footer-wrapper-top .footer-inner .right {
@@ -917,6 +929,12 @@ body.not-front .footer-wrapper-top .footer-inner .right {
   clear: none;
   margin-top: 0;
   text-align: right;
+}
+.no-mq body.front .footer-wrapper-top .footer-inner .right a img, .no-mq
+body.not-front .footer-wrapper-top .footer-inner .right a img {
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
 }
 body.front .footer-wrapper-top .lb,
 body.not-front .footer-wrapper-top .lb {
@@ -1085,7 +1103,7 @@ header.siteheader span.tel a {
     color: #EFA099;
     position: absolute;
     right: 0;
-    top: -10px;
+    top: -12px;
     background: none;
     width: auto;
   }
@@ -1100,7 +1118,7 @@ header.siteheader span.tel a {
   color: #EFA099;
   position: absolute;
   right: 0;
-  top: -10px;
+  top: -12px;
   background: none;
   width: auto;
 }
