@@ -10,6 +10,9 @@ header.siteheader {
         padding: 1rem 2rem;
         background: none;
     }
+    @include breakpoint($bp-xlarge, $no-query: ".no-mq") {
+        padding: 1rem 0;
+    }
     .logo {
         //text-align: center;
         // transform: scale(.75);
@@ -31,11 +34,13 @@ header.siteheader {
         width: 100%;
         background: $color-two;
         color: #fff;
+        padding: 0 0 0 .8rem;
         a {
             text-decoration: none;
             color: #fff;
         }
         @include breakpoint($bp-medium, $no-query: ".no-mq") {
+            padding: 0;
             display: block;
             color: $color-two;
             position: absolute;

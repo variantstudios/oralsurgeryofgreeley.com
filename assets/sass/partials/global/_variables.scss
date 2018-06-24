@@ -43,7 +43,7 @@ $bp-small-down: 0 $bp-small;
 $bp-medium: 800px;
 $bp-medium-down: 0 $bp-medium;
 $bp-large: 1000px;
-$bp-xlarge: $container_width;
+$bp-xlarge: 1200px;
 $no-query: $bp-medium,
 'no-query' '.no-mq';
 @include breakpoint-set('no query fallbacks', true);

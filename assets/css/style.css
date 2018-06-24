@@ -1029,6 +1029,14 @@ header.siteheader .header-wrap {
   padding: 1rem 2rem;
   background: none;
 }
+@media (min-width: 75em) {
+  header.siteheader {
+    padding: 1rem 0;
+  }
+}
+.no-mq header.siteheader {
+  padding: 1rem 0;
+}
 @media (min-width: 50em) {
   header.siteheader .logo {
     width: 33.33333%;
@@ -1072,6 +1080,7 @@ header.siteheader span.tel {
   width: 100%;
   background: #EFA099;
   color: #fff;
+  padding: 0 0 0 .8rem;
 }
 header.siteheader span.tel a {
   text-decoration: none;
@@ -1079,6 +1088,7 @@ header.siteheader span.tel a {
 }
 @media (min-width: 50em) {
   header.siteheader span.tel {
+    padding: 0;
     display: block;
     color: #EFA099;
     position: absolute;
@@ -1093,6 +1103,7 @@ header.siteheader span.tel a {
   }
 }
 .no-mq header.siteheader span.tel {
+  padding: 0;
   display: block;
   color: #EFA099;
   position: absolute;
