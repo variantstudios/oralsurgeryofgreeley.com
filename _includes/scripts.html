@@ -5,10 +5,27 @@
 <script src="/assets/js/prod/modernizr-2.8.3.min.js"></script>
 <script src="/assets/js/prod/zepto.1.2.0.min.js"></script>
 <script src="/assets/js/prod/scripts.js"></script>
-{% if page.layout == 'page-sidebar' %}
-<script src="/assets/js/prod/sticky.js"></script>
-<script src="/assets/js/prod/sidebar.js"></script>
-{% endif %} {% if page.layout == 'front' %} {% endif %} {% if include.class == 'contact' %}
+
+{% if page.layout == 'front' %}
+<script src="/assets/js/prod/data.js" type="text/javascript"></script>
+<script src="/assets/js/prod/zepto.revolver.min.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+    $(".front-hero-wrapper").revolver({
+        draggingMS: 300,
+        controlsMS: 800,
+        autoplayMS: 3000,
+        returnToStart: true,
+        returnToStartMS: 1000,
+        stopOnHover: true,
+        navigation: ["&larr;", "&rarr;"],
+        pagination: true,
+        paginationNumbers: false,
+        items: 1,
+    });
+</script>
+{% endif %} {% if include.class == 'contact' %}
 <script src="/assets/js/prod/contact.js"></script>
 <script src='https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit' async defer></script>
 {% endif %} {% comment %} {% if site.cloudinaryurl %}
