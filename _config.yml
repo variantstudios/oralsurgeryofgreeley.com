@@ -98,7 +98,7 @@ _comments:
 # typekit: "dan8xfd"
 
 # Google Analytics 
-google_analytics_tracking_id:
+google_analytics_tracking_id: 'UA-88541303-1'
 
 include: ["_collections"]
 
