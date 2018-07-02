@@ -6,6 +6,7 @@ search_engine_optimization:
   share_image_path:
 layout: page
 permalink: "/contact/"
+class: 'contact'
 ---
 
 # Contact Richard W. Mellin, DDS, MD 
