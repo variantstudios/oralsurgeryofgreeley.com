@@ -22,7 +22,7 @@ function fadeIn(el, display){
   })();
 }
 
-if ($('body').hasClass('contact-us')) {
+if ($('body').hasClass('contact')) {
   if (queryString() === 'true') {
     var el = document.querySelector('#contact-message');
     fadeIn(el);
@@ -36,12 +36,12 @@ if ($('body').hasClass('contact-us')) {
 var CaptchaCallback = function() { // eslint-disable-line no-unused-vars
   if ($('#RecaptchaField1').length) {
     grecaptcha.render('RecaptchaField1', {
-      sitekey: '6LfxPSAUAAAAAHG-l97Z0Gu8nxRifPt9yTRPT-IQ'
+      sitekey: '6Ld_2GEUAAAAAOTVVI5G4EOYEhe27Qkb2IIK3ZnP'
     });
   }
   if ($('#RecaptchaField2').length) {
     grecaptcha.render('RecaptchaField2', {
-      sitekey: '6LfxPSAUAAAAAHG-l97Z0Gu8nxRifPt9yTRPT-IQ'
+      sitekey: '6Ld_2GEUAAAAAOTVVI5G4EOYEhe27Qkb2IIK3ZnP'
     });
   }
 };
