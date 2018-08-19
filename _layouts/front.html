@@ -6,7 +6,7 @@ layout: default
     {% for front_hero in page.front_hero %}
     <div class="slide">
     <h3>{{front_hero.title}}</h3>
-    <img src="{{front_hero.image}}" alt="{{front_hero.title}}">
+    <img src="{{front_hero.front_hero_image_path}}" alt="{{front_hero.title}}">
     </div>
     {% endfor %}
     </div>
@@ -26,7 +26,7 @@ layout: default
 
             <ul class="calls-to-action">
                 {% for cta in page.calls_to_action %}
-                <li><a href="{{cta.link_path}}"><img src="{{cta.image}}" alt="{{cta.title}}"></a></li>
+                <li><a href="{{cta.link_path}}"><img src="{{cta.calls_to_action_image_path}}" alt="{{cta.title}}"></a></li>
                 {% endfor %}
             </ul>
         
