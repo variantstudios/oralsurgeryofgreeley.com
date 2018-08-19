@@ -87,9 +87,25 @@ _options:
     mime_type: "image/jpeg"
     expandable: false
     uploads_dir: "assets/images/share"
+  calls_to_action_image_path:
+    width: 443
+    height: 250
+    resize_style: "contain"
+    mime_type: "image/jpeg"
+    expandable: false
+    uploads_dir: "assets/images"
+  front_hero_image_path:
+    width: 1200
+    height: 450
+    resize_style: "contain"
+    mime_type: "image/jpeg"
+    expandable: false
+    uploads_dir: "assets/images"
     
 _comments:
   share_image_path: "The social share image needs to be at least 1200x1200px and if not that exact same size CloudCannon will scale and crop it to 1200x1200."
+  calls_to_action_image_path: "This image needs to be scaled and croped to exactly 443px wide by 250px tall."
+  front_hero_image_path: "This image needs to be scaled and croped to exactly 1200px wide by 450px tall."
 
 # Cloudinary
 # cloudinaryurl: 'https://res.cloudinary.com/grow-your-storage/'
