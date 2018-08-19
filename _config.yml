@@ -93,14 +93,14 @@ _options:
     resize_style: "contain"
     mime_type: "image/jpeg"
     expandable: false
-    uploads_dir: "assets/images"
+    uploads_dir: "assets/images/front"
   front_hero_image_path:
     width: 1200
     height: 450
     resize_style: "contain"
     mime_type: "image/jpeg"
     expandable: false
-    uploads_dir: "assets/images"
+    uploads_dir: "assets/images/front-hero"
     
 _comments:
   share_image_path: "The social share image needs to be at least 1200x1200px and if not that exact same size CloudCannon will scale and crop it to 1200x1200."
