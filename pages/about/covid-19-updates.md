@@ -10,6 +10,25 @@ permalink: /covid-19/
 
 # COVID-19 Updates
 
+**We are currently seeing both emergency and elective procedures.&nbsp;**
+
+**Here are our current office policies/updates:**
+
+* All patients will be required to wear a mask while in the building.&nbsp;
+* Only one additional person is allowed in per patient.
+* Temperatures will be taken for all people entering the building.
+* Paperwork is required to be completed 48 hours in advance:&nbsp;[here](https://mysecurepractice.com/Truform/b3c37979-c6ce-447e-a8f3-933df76c8cc3/Submission/Create)
+
+**Our check in process has also been revamped.**
+
+* Please wait at the front doors for someone to screen you.
+* All patients will be asked COVID screening questions and temperatures will be taken.
+* We are limiting the number of people in our lobbies.&nbsp; Please be conscious of social distancing.
+
+We appreciate your help in making this a smooth transition. As our regulations change, we will be sure to keep you updated.
+
+&nbsp;
+
 **4/1/20**
 
 Precision Oral Surgery is continually monitoring the COVID-19 pandemic affecting the world at present.&nbsp; We are monitoring the Centers for Disease Control (CDC), American Dental Association (ADA), American Association of Oral & Maxillofacial Surgeons (AAOMS), our state dental societies, as well as other organizations for the latest and most up-to-date information regarding this disease and its potential impact on our patients and team members.&nbsp; These changes are quite fluid and we have made adjustments to our practice as mandated by these governing entities.
