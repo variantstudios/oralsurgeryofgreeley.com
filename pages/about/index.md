@@ -38,11 +38,13 @@ Along with Platte Valley High School alum, and current NBA player, Jason Smith, 
 * Boys and Girls Club of Greeley
 * Member of St. Mary Catholic Church, Greeley
 
-# About Eric Mellin, DDS
+&nbsp;
+
+# About Eric Reimer, DDS
 
 ![](/assets/images/reimers-edit-1.jpg){: width="3024" height="4032"}
 
-Dr. Eric Reimer obtained his undergraduate degree from Baker University in Baldwin City, KS. &nbsp;He received his Doctor of Dental Surgery (DDS) from the University of Missouri-Kansas City, and completed a hospital-based full scope Oral & Maxillofacial Surgery residency at the University of Texas Health Science Center in Houston (located in the Texas Medical Center, the world's largest medical center). &nbsp;Dr. Reimer received training in outpatient anesthesia, dentoalveolar surgery, dental implants, facial trauma and facial reconstructive surgery, orthognathic surgery, and both benign and malignant pathology. &nbsp;He also enjoys participating in outreach global missions for cleft lip and palate repairs. Dr. Reimer is a current member of the American College of Oral and Maxillofacial Surgeons and the American Association of Oral and Maxillofacial Surgeons.
+Dr. Eric Reimer obtained his undergraduate degree from Baker University in Baldwin City, KS. &nbsp;He received his Doctor of Dental Surgery (DDS) from the University of Missouri-Kansas City, and completed a hospital-based full scope Oral & Maxillofacial Surgery residency at the University of Texas Health Science Center in Houston (located in the Texas Medical Center, the world’s largest medical center). &nbsp;Dr. Reimer received training in outpatient anesthesia, dentoalveolar surgery, dental implants, facial trauma and facial reconstructive surgery, orthognathic surgery, and both benign and malignant pathology. &nbsp;He also enjoys participating in outreach global missions for cleft lip and palate repairs. Dr. Reimer is a current member of the American College of Oral and Maxillofacial Surgeons and the American Association of Oral and Maxillofacial Surgeons.
 
 &nbsp;
 
