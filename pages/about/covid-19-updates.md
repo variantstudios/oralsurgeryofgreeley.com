@@ -10,20 +10,17 @@ permalink: /covid-19/
 
 # COVID-19 Updates
 
-**We are currently seeing both emergency and elective procedures.&nbsp;**
+We are currently seeing both emergency and elective procedures.&nbsp; We are following state mandates.
 
-**Here are our current office policies/updates:**
+Here are our current office policies/updates:
 
 * All patients will be required to wear a mask while in the building.&nbsp;
-* Only one additional person is allowed in per patient.
+* Only one additional person is allowed to accompany the patient.
 * Temperatures will be taken for all people entering the building.
-* Paperwork is required to be completed 48 hours in advance:&nbsp;[here](https://mysecurepractice.com/Truform/b3c37979-c6ce-447e-a8f3-933df76c8cc3/Submission/Create)
-
-**Our check in process has also been revamped.**
-
-* Please wait at the front doors for someone to screen you.
-* All patients will be asked COVID screening questions and temperatures will be taken.
-* We are limiting the number of people in our lobbies.&nbsp; Please be conscious of social distancing.
+* All patients and individuals accompanying patients will be asked COVID screening questions to determine the ability to remain in the building and/or proceed with surgery.
+* We encourage everyone to practice social distancing while in the reception area.
+* We recommend completing all your paperwork in advance to minimize the amount of time spent in our reception area.
+* We are adjusting these guidelines as necessary.
 
 We appreciate your help in making this a smooth transition. As our regulations change, we will be sure to keep you updated.
 
