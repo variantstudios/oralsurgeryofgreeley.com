@@ -5,7 +5,7 @@ search_engine_optimization:
   page_description:
   share_image_path:
 layout: page
-permalink: /covid-19/
+permalink: /careers/
 ---
 
 # Careers
